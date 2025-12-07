@@ -53,7 +53,7 @@ This app uses the Google OAuth 2.0 flow for **Installed Applications** (desktop/
 
     ```python
     # config.py
-    GROQ_API_KEY = "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" 
+    GROQ_API_KEY = "" 
     MODEL_NAME = "groq/compound-mini" 
     ```
 
