@@ -1,0 +1,24 @@
+# requirements.txt
+
+# --- Interface and Environment ---
+streamlit
+python-dotenv
+
+# --- LangChain Core Libraries (REQUIRED) ---
+langchain  # <--- NEW ADDITION
+langchain-core
+langchain-community
+langchain-text-splitters 
+
+# --- LLM Provider Integration ---
+langchain-groq
+
+# --- Vector Store and Embeddings ---
+chromadb
+sentence-transformers 
+
+# --- Google API for Gmail Access (Authentication and Fetching) ---
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
